@@ -1,0 +1,12 @@
+a = input("enter a number between 0-10 and Type Quit to leave: ")
+
+if(a=="Quit" or a=="quit"):
+   print("thank for attention")
+elif(not a.isdigit()):
+  print("enter the correct value (integer)")
+elif (int(a) <= 0 or int(a)>=10):
+  raise ValueError ("the entered value is not mached")
+  print("number is:", b)
+
+else:
+  print("hello")
